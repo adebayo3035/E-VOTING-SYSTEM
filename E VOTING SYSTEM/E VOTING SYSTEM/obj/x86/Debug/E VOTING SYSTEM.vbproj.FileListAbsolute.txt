@@ -1,0 +1,27 @@
+C:\Users\hajji rahmon\Documents\Visual Studio 2010\Projects\E VOTING SYSTEM\E VOTING SYSTEM\bin\Debug\E VOTING SYSTEM.exe
+C:\Users\hajji rahmon\Documents\Visual Studio 2010\Projects\E VOTING SYSTEM\E VOTING SYSTEM\bin\Debug\E VOTING SYSTEM.pdb
+C:\Users\hajji rahmon\Documents\Visual Studio 2010\Projects\E VOTING SYSTEM\E VOTING SYSTEM\bin\Debug\E VOTING SYSTEM.xml
+C:\Users\hajji rahmon\Documents\Visual Studio 2010\Projects\E VOTING SYSTEM\E VOTING SYSTEM\obj\x86\Debug\E_VOTING_SYSTEM.ACCREDITATION.resources
+C:\Users\hajji rahmon\Documents\Visual Studio 2010\Projects\E VOTING SYSTEM\E VOTING SYSTEM\obj\x86\Debug\E_VOTING_SYSTEM.CANDIDATE_REG.resources
+C:\Users\hajji rahmon\Documents\Visual Studio 2010\Projects\E VOTING SYSTEM\E VOTING SYSTEM\obj\x86\Debug\E_VOTING_SYSTEM.GEN_SEC_VOTE.resources
+C:\Users\hajji rahmon\Documents\Visual Studio 2010\Projects\E VOTING SYSTEM\E VOTING SYSTEM\obj\x86\Debug\E_VOTING_SYSTEM.PRESIDENT_VOTE.resources
+C:\Users\hajji rahmon\Documents\Visual Studio 2010\Projects\E VOTING SYSTEM\E VOTING SYSTEM\obj\x86\Debug\E_VOTING_SYSTEM.VOTERS_REG.resources
+C:\Users\hajji rahmon\Documents\Visual Studio 2010\Projects\E VOTING SYSTEM\E VOTING SYSTEM\obj\x86\Debug\E_VOTING_SYSTEM.Resources.resources
+C:\Users\hajji rahmon\Documents\Visual Studio 2010\Projects\E VOTING SYSTEM\E VOTING SYSTEM\obj\x86\Debug\E VOTING SYSTEM.vbproj.GenerateResource.Cache
+C:\Users\hajji rahmon\Documents\Visual Studio 2010\Projects\E VOTING SYSTEM\E VOTING SYSTEM\obj\x86\Debug\E VOTING SYSTEM.exe
+C:\Users\hajji rahmon\Documents\Visual Studio 2010\Projects\E VOTING SYSTEM\E VOTING SYSTEM\obj\x86\Debug\E VOTING SYSTEM.xml
+C:\Users\hajji rahmon\Documents\Visual Studio 2010\Projects\E VOTING SYSTEM\E VOTING SYSTEM\obj\x86\Debug\E VOTING SYSTEM.pdb
+C:\Users\hajji rahmon\Documents\Visual Studio 2010\Projects\E VOTING SYSTEM\E VOTING SYSTEM\obj\x86\Debug\E_VOTING_SYSTEM.homepage.resources
+C:\Users\hajji rahmon\Documents\Visual Studio 2010\Projects\E VOTING SYSTEM\E VOTING SYSTEM\obj\x86\Debug\E_VOTING_SYSTEM.FIN_SEC_VOTE.resources
+C:\Users\hajji rahmon\Documents\Visual Studio 2010\Projects\E VOTING SYSTEM\E VOTING SYSTEM\obj\x86\Debug\E_VOTING_SYSTEM.VOTE_PREVIEW.resources
+C:\Users\hajji rahmon\Documents\Visual Studio 2010\Projects\E VOTING SYSTEM\E VOTING SYSTEM\obj\x86\Debug\E_VOTING_SYSTEM.ADMIN_REG.resources
+C:\Users\hajji rahmon\Documents\Visual Studio 2010\Projects\E VOTING SYSTEM\E VOTING SYSTEM\obj\x86\Debug\E_VOTING_SYSTEM.PRESIDENT_RESULT.resources
+C:\Users\hajji rahmon\Documents\Visual Studio 2010\Projects\E VOTING SYSTEM\E VOTING SYSTEM\obj\x86\Debug\E_VOTING_SYSTEM.FIN_SEC_RESULT.resources
+C:\Users\hajji rahmon\Documents\Visual Studio 2010\Projects\E VOTING SYSTEM\E VOTING SYSTEM\obj\x86\Debug\E_VOTING_SYSTEM.GEN_SEC_RESULT.resources
+C:\Users\hajji rahmon\Documents\Visual Studio 2010\Projects\E VOTING SYSTEM\E VOTING SYSTEM\obj\x86\Debug\E_VOTING_SYSTEM.VOTER_SLIP.resources
+C:\Users\hajji rahmon\Documents\Visual Studio 2010\Projects\E VOTING SYSTEM\E VOTING SYSTEM\obj\x86\Debug\E_VOTING_SYSTEM.ADMIN_SLIP.resources
+C:\Users\hajji rahmon\Documents\Visual Studio 2010\Projects\E VOTING SYSTEM\E VOTING SYSTEM\obj\x86\Debug\E_VOTING_SYSTEM.CANDIDATE_RECORD.resources
+C:\Users\hajji rahmon\Documents\Visual Studio 2010\Projects\E VOTING SYSTEM\E VOTING SYSTEM\obj\x86\Debug\E_VOTING_SYSTEM.VOTERS_RECORD.resources
+C:\Users\hajji rahmon\Documents\Visual Studio 2010\Projects\E VOTING SYSTEM\E VOTING SYSTEM\obj\x86\Debug\E_VOTING_SYSTEM.ADMIN_RECORD.resources
+C:\Users\hajji rahmon\Documents\Visual Studio 2010\Projects\E VOTING SYSTEM\E VOTING SYSTEM\obj\x86\Debug\E_VOTING_SYSTEM.CANDIDATE_SLIP.resources
+C:\Users\hajji rahmon\Documents\Visual Studio 2010\Projects\E VOTING SYSTEM\E VOTING SYSTEM\obj\x86\Debug\E_VOTING_SYSTEM.VOTING_STATISTICS.resources

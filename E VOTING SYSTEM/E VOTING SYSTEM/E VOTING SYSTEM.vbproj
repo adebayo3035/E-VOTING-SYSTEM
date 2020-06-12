@@ -1,0 +1,443 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{BFD00F1C-7421-4920-AC87-94F890F13C87}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>E_VOTING_SYSTEM.My.MyApplication</StartupObject>
+    <RootNamespace>E_VOTING_SYSTEM</RootNamespace>
+    <AssemblyName>E VOTING SYSTEM</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>E VOTING SYSTEM.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>E VOTING SYSTEM.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ACCREDITATION.Designer.vb">
+      <DependentUpon>ACCREDITATION.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ACCREDITATION.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ADMIN_RECORD.Designer.vb">
+      <DependentUpon>ADMIN_RECORD.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ADMIN_RECORD.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ADMIN_REG.Designer.vb">
+      <DependentUpon>ADMIN_REG.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ADMIN_REG.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ADMIN_SLIP.Designer.vb">
+      <DependentUpon>ADMIN_SLIP.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ADMIN_SLIP.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CANDIDATE_RECORD.Designer.vb">
+      <DependentUpon>CANDIDATE_RECORD.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CANDIDATE_RECORD.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CANDIDATE_REG.Designer.vb">
+      <DependentUpon>CANDIDATE_REG.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CANDIDATE_REG.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CANDIDATE_SLIP.Designer.vb">
+      <DependentUpon>CANDIDATE_SLIP.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CANDIDATE_SLIP.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FIN_SEC_RESULT.Designer.vb">
+      <DependentUpon>FIN_SEC_RESULT.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FIN_SEC_RESULT.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FIN_SEC_VOTE.Designer.vb">
+      <DependentUpon>FIN_SEC_VOTE.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FIN_SEC_VOTE.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GEN_SEC_RESULT.Designer.vb">
+      <DependentUpon>GEN_SEC_RESULT.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GEN_SEC_RESULT.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GEN_SEC_VOTE.Designer.vb">
+      <DependentUpon>GEN_SEC_VOTE.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GEN_SEC_VOTE.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="homepage.Designer.vb">
+      <DependentUpon>homepage.vb</DependentUpon>
+    </Compile>
+    <Compile Include="homepage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="modconnection.vb" />
+    <Compile Include="PRESIDENT_RESULT.Designer.vb">
+      <DependentUpon>PRESIDENT_RESULT.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PRESIDENT_RESULT.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PRESIDENT_VOTE.Designer.vb">
+      <DependentUpon>PRESIDENT_VOTE.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PRESIDENT_VOTE.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VOTERS_RECORD.Designer.vb">
+      <DependentUpon>VOTERS_RECORD.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VOTERS_RECORD.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VOTERS_REG.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VOTERS_REG.Designer.vb">
+      <DependentUpon>VOTERS_REG.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="VOTER_SLIP.Designer.vb">
+      <DependentUpon>VOTER_SLIP.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VOTER_SLIP.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VOTE_PREVIEW.Designer.vb">
+      <DependentUpon>VOTE_PREVIEW.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VOTE_PREVIEW.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VOTING_STATISTICS.Designer.vb">
+      <DependentUpon>VOTING_STATISTICS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VOTING_STATISTICS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ACCREDITATION.resx">
+      <DependentUpon>ACCREDITATION.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ADMIN_RECORD.resx">
+      <DependentUpon>ADMIN_RECORD.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ADMIN_REG.resx">
+      <DependentUpon>ADMIN_REG.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ADMIN_SLIP.resx">
+      <DependentUpon>ADMIN_SLIP.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CANDIDATE_RECORD.resx">
+      <DependentUpon>CANDIDATE_RECORD.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CANDIDATE_REG.resx">
+      <DependentUpon>CANDIDATE_REG.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CANDIDATE_SLIP.resx">
+      <DependentUpon>CANDIDATE_SLIP.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FIN_SEC_RESULT.resx">
+      <DependentUpon>FIN_SEC_RESULT.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FIN_SEC_VOTE.resx">
+      <DependentUpon>FIN_SEC_VOTE.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GEN_SEC_RESULT.resx">
+      <DependentUpon>GEN_SEC_RESULT.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GEN_SEC_VOTE.resx">
+      <DependentUpon>GEN_SEC_VOTE.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="homepage.resx">
+      <DependentUpon>homepage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PRESIDENT_RESULT.resx">
+      <DependentUpon>PRESIDENT_RESULT.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PRESIDENT_VOTE.resx">
+      <DependentUpon>PRESIDENT_VOTE.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VOTERS_RECORD.resx">
+      <DependentUpon>VOTERS_RECORD.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VOTERS_REG.resx">
+      <DependentUpon>VOTERS_REG.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VOTER_SLIP.resx">
+      <DependentUpon>VOTER_SLIP.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VOTE_PREVIEW.resx">
+      <DependentUpon>VOTE_PREVIEW.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VOTING_STATISTICS.resx">
+      <DependentUpon>VOTING_STATISTICS.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\photo_not_available_large.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\correct.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\register1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vote2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vote3%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vote7.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled-15.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1295374829_desktop.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\voteICON.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\voteICON1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\student.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\log-12811.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\system-information-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tools2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tool.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TOOLICON.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TOOLICON1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TOOLICON2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TOOLICON3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TOOLICON4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vote6.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\milky-way-2695569__480.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vote 1.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vote4.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cloud.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cloud1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\voteicon%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\voteICON2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\next.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\next1.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BG.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\next2.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\prev icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SUBMIT ICON.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gnome_panel_force_quit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reports.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %284%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %281%292.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
